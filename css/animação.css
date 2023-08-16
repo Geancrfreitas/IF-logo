@@ -7,9 +7,11 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    position: absolute;
-    top: 90px;
 }
+   /* position: absolute;
+    top: 30px;
+    right: 30px;
+
 #vr1{
     color: green;
     height: 30px;
