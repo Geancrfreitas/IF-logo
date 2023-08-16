@@ -3,74 +3,75 @@
     font-family:'Times New Roman', Times, serif;
 }
 #ve1{
-    color: red;
+    background-color: red;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-
+    position: absolute;
     top: 30px;
     right: 30px;
     z-index: 1;
-
+    
 }
 #vr1{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
     position: absolute;
+
 }
 #vr2{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
     position: absolute;
 }
 #vr3{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
     position: absolute;
 }
 #vr4{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
     position: absolute;
 }
 #vr5{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
     position: absolute;
 }
 #vr6{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
     position: absolute;
 }
 #vr7{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
     position: absolute;
 }
 #vr8{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
     position: absolute;
 }
 #vr9{
-    color: green;
+    background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 2px;
