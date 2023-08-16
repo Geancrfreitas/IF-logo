@@ -1,78 +1,243 @@
+*{
+    
+}
+
+#bt{
+    color: bisque;
+}
 #txt{
     color: black;
     font-family:'Times New Roman', Times, serif;
+
 }
 #ve1{
     background-color: red;
-    height: 30px;
-    width: 30px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 80px;
+    left: 600px;
+    animation-name: logo1;
+    animation-duration: 10s;
+    animation-delay: 1s;
     
 }
 #vr1{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 165px;
+    left: 600px;
+    animation-name: logo2;
+    animation-duration: 10s;
+    animation-delay: 1s;
 
 }
 #vr2{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 250px;
+    left: 600px;
+    animation-name: logo3;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 #vr3{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 335px;
+    left: 600px;
+    animation-name: logo4;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 #vr4{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 80px;
+    left: 685px;
+    animation-name: logo5;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 #vr5{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 165px;
+    left: 685px;
+    animation-name: logo6;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 #vr6{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 250px;
+    left: 685px;
+    animation-name: logo7;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 #vr7{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 335px;
+    left: 685px;
+    animation-name: logo8;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 #vr8{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 80px;
+    left: 770px;
+    animation-name: logo9;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 #vr9{
     background-color: green;
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
     position: absolute;
+    top: 250px;
+    left: 770px;
+    animation-name: logo10;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
+@keyframes logo1{
+    from{
+        margin-left: 100%;
+        top:10% ;
+    }
+
+    to{
+        top: 80px;
+        left: 600px;
+    }
+ }
+ @keyframes logo2{
+    from{
+        margin-left: 100%;
+        top:30% ;
+    }
+
+    to{
+        top: 165px;
+        left: 600px;
+    }
+ }
+ @keyframes logo3{
+    from{
+        margin-left: 100%;
+        top:50% ;
+    }
+
+    to{
+        top: 250px;
+        left: 600px;
+    }
+ }
+ @keyframes logo4{
+    from{
+        margin-left: 100%;
+        top:70% ;
+    }
+
+    to{
+        top: 335px;
+        left: 600px;
+    }
+ }
+ @keyframes logo5{
+    from{
+        margin-left: 100%;
+        top:90% ;
+    }
+
+    to{
+        top: 80px;
+        left: 685px;
+    }
+ }
+ @keyframes logo6{
+    from{
+        right: 100%;
+        top:10% ;
+    }
+
+    to{
+        top: 165px;
+        left: 685px;
+    }
+ }
+ @keyframes logo7{
+    from{
+        right: 100%;
+        top:10% ;
+    }
+
+    to{
+        
+    }
+ }
+ @keyframes logo8{
+    from{
+        top: ;
+        right: ;
+    }
+
+    to{
+        top: 335px;
+        left: 685px;
+    }
+ }
+ @keyframes logo9{
+    from{
+        top: ;
+        right: ;
+    }
+
+    to{
+        top: 80px;
+        left: 770px;
+    }
+ }
+ @keyframes logo10{
+    from{
+        top: ;
+        right: ;
+    }
+
+    to{
+        top: 250px;
+        left: 770px;
+    }
+ }
